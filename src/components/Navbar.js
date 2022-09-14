@@ -7,7 +7,6 @@ const Navbar = () => {
 
   const isUser = isAuthenticated && user;
 
-  console.log(user);
   return (
     <Wrapper>
       {isUser && user.picture && <img src={user.picture} alt={user.name} />}
